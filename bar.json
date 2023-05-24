@@ -1,0 +1,54 @@
+{
+  "textStyle": {
+    "fontFamily": "Inter, Helvetica Neue, Arial, sans-serif"
+  },
+  "dataset": {
+    "dimensions": [
+      "Product",
+      "2015",
+      "2016",
+      "2017"
+    ],
+    "source": [
+      {
+        "2015": 10,
+        "2016": 20,
+        "2017": 50,
+        "Product": "Matcha Latte"
+      },
+      {
+        "2015": 20,
+        "2016": 30,
+        "2017": 60,
+        "Product": "Milk Tea"
+      },
+      {
+        "2015": 30,
+        "2016": 10,
+        "2017": 80,
+        "Product": "Cheese Cocoa"
+      },
+      {
+        "2015": 60,
+        "2016": 40,
+        "2017": 90,
+        "Product": "Walnut Brownie"
+      }
+    ]
+  },
+  "xAxis": {
+    "type": "category"
+  },
+  "yAxis": {},
+  "series": [
+    {
+      "type": "bar"
+    },
+    {
+      "type": "bar"
+    },
+    {
+      "type": "bar"
+    }
+  ]
+}
